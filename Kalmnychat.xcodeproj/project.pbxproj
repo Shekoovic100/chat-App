@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880D3A585B4084CBCB50FFF9 /* Pods_Kalmnychat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F6D78B3345DA9351733A6A /* Pods_Kalmnychat.framework */; };
+		E009B1C725FA2A950020260D /* MessagesVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B1C625FA2A950020260D /* MessagesVc.swift */; };
+		E009B1C925FA2B460020260D /* OutgoingMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B1C825FA2B460020260D /* OutgoingMessages.swift */; };
+		E009B1CB25FA32970020260D /* Messages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E009B1CA25FA32970020260D /* Messages.storyboard */; };
+		E009B1CD25FA3EA50020260D /* myMessageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B1CC25FA3EA50020260D /* myMessageTVCell.swift */; };
+		E009B1CF25FA3FD20020260D /* myFriendsMessageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E009B1CE25FA3FD20020260D /* myFriendsMessageTVC.swift */; };
+		E06ECDC125EBD60800A3D134 /* Refrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06ECDBE25EBD60800A3D134 /* Refrences.swift */; };
+		E06ECDC425EBDD1200A3D134 /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06ECDC325EBDD1200A3D134 /* Users.storyboard */; };
+		E08490AC25F6287300B5B2FF /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08490AB25F6287300B5B2FF /* FUser.swift */; };
+		E089EFB325F51BA300B5B1F5 /* FMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089EFAF25F51BA300B5B1F5 /* FMessage.swift */; };
+		E089EFB425F51BA300B5B1F5 /* FMessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089EFB025F51BA300B5B1F5 /* FMessageType.swift */; };
+		E089EFB525F51BA300B5B1F5 /* FRecent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089EFB125F51BA300B5B1F5 /* FRecent.swift */; };
+		E08CE8DD25ECF25200A454C4 /* usersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CE8DC25ECF25200A454C4 /* usersCell.swift */; };
+		E08CE8DF25ECF2DA00A454C4 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08CE8DE25ECF2DA00A454C4 /* UsersVC.swift */; };
+		E0974EDD25EBB17000215A36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0974EDC25EBB17000215A36 /* AppDelegate.swift */; };
+		E0974EDF25EBB17000215A36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0974EDE25EBB17000215A36 /* SceneDelegate.swift */; };
+		E0974EE125EBB17000215A36 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0974EE025EBB17000215A36 /* WelcomeVC.swift */; };
+		E0974EE625EBB17100215A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0974EE525EBB17100215A36 /* Assets.xcassets */; };
+		E0ACE47A25FF72D500E5DCE0 /* myImageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ACE47925FF72D500E5DCE0 /* myImageTVCell.swift */; };
+		E0ACE47C25FF733200E5DCE0 /* myFriendsImageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ACE47B25FF733200E5DCE0 /* myFriendsImageTVCell.swift */; };
+		E0ACE47E25FF793900E5DCE0 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ACE47D25FF793900E5DCE0 /* Storage.swift */; };
+		E0F379DE25F4F68A0071C4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F379DC25F4F68A0071C4AE /* LaunchScreen.storyboard */; };
+		E0F379DF25F4F68A0071C4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F379DD25F4F68A0071C4AE /* Main.storyboard */; };
+		E0F5956D2603499800DD7DC7 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F5956C2603499800DD7DC7 /* Security.swift */; };
+		E0F5956F2603520500DD7DC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0F5956E2603520500DD7DC7 /* GoogleService-Info.plist */; };
+		E0F595712603529900DD7DC7 /* Image+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F595702603529900DD7DC7 /* Image+Extentions.swift */; };
+		E0F595742603530000DD7DC7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F595722603530000DD7DC7 /* Constants.swift */; };
+		E0F595752603530000DD7DC7 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F595732603530000DD7DC7 /* HelperFunctions.swift */; };
+		E0F5957726035DEB00DD7DC7 /* Colorful Cutesy Kiddie Homescreen Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F5957626035DEB00DD7DC7 /* Colorful Cutesy Kiddie Homescreen Wallpaper.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53F189F4DCE70EA78BF82B5C /* Pods-Kalmnychat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kalmnychat.debug.xcconfig"; path = "Target Support Files/Pods-Kalmnychat/Pods-Kalmnychat.debug.xcconfig"; sourceTree = "<group>"; };
+		65F6D78B3345DA9351733A6A /* Pods_Kalmnychat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kalmnychat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7983A1911FC73DAEEE8D78C5 /* Pods-Kalmnychat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kalmnychat.release.xcconfig"; path = "Target Support Files/Pods-Kalmnychat/Pods-Kalmnychat.release.xcconfig"; sourceTree = "<group>"; };
+		E009B1C625FA2A950020260D /* MessagesVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVc.swift; sourceTree = "<group>"; };
+		E009B1C825FA2B460020260D /* OutgoingMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutgoingMessages.swift; sourceTree = "<group>"; };
+		E009B1CA25FA32970020260D /* Messages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Messages.storyboard; sourceTree = "<group>"; };
+		E009B1CC25FA3EA50020260D /* myMessageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMessageTVCell.swift; sourceTree = "<group>"; };
+		E009B1CE25FA3FD20020260D /* myFriendsMessageTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFriendsMessageTVC.swift; sourceTree = "<group>"; };
+		E06ECDBE25EBD60800A3D134 /* Refrences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refrences.swift; sourceTree = "<group>"; };
+		E06ECDC325EBDD1200A3D134 /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		E08490AB25F6287300B5B2FF /* FUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		E089EFAF25F51BA300B5B1F5 /* FMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMessage.swift; sourceTree = "<group>"; };
+		E089EFB025F51BA300B5B1F5 /* FMessageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMessageType.swift; sourceTree = "<group>"; };
+		E089EFB125F51BA300B5B1F5 /* FRecent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRecent.swift; sourceTree = "<group>"; };
+		E08CE8DC25ECF25200A454C4 /* usersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usersCell.swift; sourceTree = "<group>"; };
+		E08CE8DE25ECF2DA00A454C4 /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		E0974ED925EBB17000215A36 /* Kalmnychat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalmnychat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0974EDC25EBB17000215A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0974EDE25EBB17000215A36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0974EE025EBB17000215A36 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		E0974EE525EBB17100215A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0974EEA25EBB17100215A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ACE47925FF72D500E5DCE0 /* myImageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myImageTVCell.swift; sourceTree = "<group>"; };
+		E0ACE47B25FF733200E5DCE0 /* myFriendsImageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFriendsImageTVCell.swift; sourceTree = "<group>"; };
+		E0ACE47D25FF793900E5DCE0 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		E0F379DC25F4F68A0071C4AE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0F379DD25F4F68A0071C4AE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E0F5956C2603499800DD7DC7 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		E0F5956E2603520500DD7DC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E0F595702603529900DD7DC7 /* Image+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Extentions.swift"; sourceTree = "<group>"; };
+		E0F595722603530000DD7DC7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0F595732603530000DD7DC7 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		E0F5957626035DEB00DD7DC7 /* Colorful Cutesy Kiddie Homescreen Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Colorful Cutesy Kiddie Homescreen Wallpaper.png"; path = "Assets.xcassets/Backgrounds/Colorful Cutesy Kiddie Homescreen Wallpaper.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0974ED625EBB17000215A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D3A585B4084CBCB50FFF9 /* Pods_Kalmnychat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567A870ADDC96E3318DFDFE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53F189F4DCE70EA78BF82B5C /* Pods-Kalmnychat.debug.xcconfig */,
+				7983A1911FC73DAEEE8D78C5 /* Pods-Kalmnychat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71AD0177882C33321CB3A822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F6D78B3345DA9351733A6A /* Pods_Kalmnychat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E06ECDB425EBC6A600A3D134 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E0F595702603529900DD7DC7 /* Image+Extentions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E0974ED025EBB17000215A36 = {
+			isa = PBXGroup;
+			children = (
+				E06ECDB425EBC6A600A3D134 /* Extensions */,
+				E0974EF125EBB18500215A36 /* App Delegates */,
+				E0974EF425EBB18D00215A36 /* Model */,
+				E0974EF325EBB18A00215A36 /* View */,
+				E0974EF225EBB18700215A36 /* Controller */,
+				E0974EF025EBB18300215A36 /* Helper */,
+				E0974EDB25EBB17000215A36 /* Kalmnychat */,
+				E0974EDA25EBB17000215A36 /* Products */,
+				567A870ADDC96E3318DFDFE0 /* Pods */,
+				71AD0177882C33321CB3A822 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0974EDA25EBB17000215A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0974ED925EBB17000215A36 /* Kalmnychat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0974EDB25EBB17000215A36 /* Kalmnychat */ = {
+			isa = PBXGroup;
+			children = (
+				E0974EE525EBB17100215A36 /* Assets.xcassets */,
+				E0F5957626035DEB00DD7DC7 /* Colorful Cutesy Kiddie Homescreen Wallpaper.png */,
+				E0974EEA25EBB17100215A36 /* Info.plist */,
+				E0F5956E2603520500DD7DC7 /* GoogleService-Info.plist */,
+			);
+			path = Kalmnychat;
+			sourceTree = "<group>";
+		};
+		E0974EF025EBB18300215A36 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E0F595722603530000DD7DC7 /* Constants.swift */,
+				E0F595732603530000DD7DC7 /* HelperFunctions.swift */,
+				E0F5956C2603499800DD7DC7 /* Security.swift */,
+				E0ACE47D25FF793900E5DCE0 /* Storage.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E0974EF125EBB18500215A36 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E0974EDC25EBB17000215A36 /* AppDelegate.swift */,
+				E0974EDE25EBB17000215A36 /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		E0974EF225EBB18700215A36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0974EE025EBB17000215A36 /* WelcomeVC.swift */,
+				E08CE8DE25ECF2DA00A454C4 /* UsersVC.swift */,
+				E009B1C625FA2A950020260D /* MessagesVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0974EF325EBB18A00215A36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0974EF525EBB1DE00215A36 /* StoryBoards */,
+				E08CE8DC25ECF25200A454C4 /* usersCell.swift */,
+				E009B1CC25FA3EA50020260D /* myMessageTVCell.swift */,
+				E009B1CE25FA3FD20020260D /* myFriendsMessageTVC.swift */,
+				E0ACE47925FF72D500E5DCE0 /* myImageTVCell.swift */,
+				E0ACE47B25FF733200E5DCE0 /* myFriendsImageTVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0974EF425EBB18D00215A36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E08490AB25F6287300B5B2FF /* FUser.swift */,
+				E089EFAF25F51BA300B5B1F5 /* FMessage.swift */,
+				E089EFB025F51BA300B5B1F5 /* FMessageType.swift */,
+				E089EFB125F51BA300B5B1F5 /* FRecent.swift */,
+				E06ECDBE25EBD60800A3D134 /* Refrences.swift */,
+				E009B1C825FA2B460020260D /* OutgoingMessages.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0974EF525EBB1DE00215A36 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E0F379DC25F4F68A0071C4AE /* LaunchScreen.storyboard */,
+				E0F379DD25F4F68A0071C4AE /* Main.storyboard */,
+				E06ECDC325EBDD1200A3D134 /* Users.storyboard */,
+				E009B1CA25FA32970020260D /* Messages.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0974ED825EBB17000215A36 /* Kalmnychat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0974EED25EBB17100215A36 /* Build configuration list for PBXNativeTarget "Kalmnychat" */;
+			buildPhases = (
+				8486F0BA4585B38FE777B201 /* [CP] Check Pods Manifest.lock */,
+				E0974ED525EBB17000215A36 /* Sources */,
+				E0974ED625EBB17000215A36 /* Frameworks */,
+				E0974ED725EBB17000215A36 /* Resources */,
+				2AF5661A71006347BEE4BD13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kalmnychat;
+			productName = Kalmnychat;
+			productReference = E0974ED925EBB17000215A36 /* Kalmnychat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0974ED125EBB17000215A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Sherif samy";
+				TargetAttributes = {
+					E0974ED825EBB17000215A36 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = E0974ED425EBB17000215A36 /* Build configuration list for PBXProject "Kalmnychat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0974ED025EBB17000215A36;
+			productRefGroup = E0974EDA25EBB17000215A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0974ED825EBB17000215A36 /* Kalmnychat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0974ED725EBB17000215A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E009B1CB25FA32970020260D /* Messages.storyboard in Resources */,
+				E06ECDC425EBDD1200A3D134 /* Users.storyboard in Resources */,
+				E0F379DF25F4F68A0071C4AE /* Main.storyboard in Resources */,
+				E0F379DE25F4F68A0071C4AE /* LaunchScreen.storyboard in Resources */,
+				E0974EE625EBB17100215A36 /* Assets.xcassets in Resources */,
+				E0F5956F2603520500DD7DC7 /* GoogleService-Info.plist in Resources */,
+				E0F5957726035DEB00DD7DC7 /* Colorful Cutesy Kiddie Homescreen Wallpaper.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AF5661A71006347BEE4BD13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kalmnychat/Pods-Kalmnychat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kalmnychat/Pods-Kalmnychat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kalmnychat/Pods-Kalmnychat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8486F0BA4585B38FE777B201 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kalmnychat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0974ED525EBB17000215A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E009B1C925FA2B460020260D /* OutgoingMessages.swift in Sources */,
+				E009B1CF25FA3FD20020260D /* myFriendsMessageTVC.swift in Sources */,
+				E089EFB525F51BA300B5B1F5 /* FRecent.swift in Sources */,
+				E0974EE125EBB17000215A36 /* WelcomeVC.swift in Sources */,
+				E0ACE47E25FF793900E5DCE0 /* Storage.swift in Sources */,
+				E0974EDD25EBB17000215A36 /* AppDelegate.swift in Sources */,
+				E009B1CD25FA3EA50020260D /* myMessageTVCell.swift in Sources */,
+				E089EFB325F51BA300B5B1F5 /* FMessage.swift in Sources */,
+				E08CE8DD25ECF25200A454C4 /* usersCell.swift in Sources */,
+				E009B1C725FA2A950020260D /* MessagesVc.swift in Sources */,
+				E08CE8DF25ECF2DA00A454C4 /* UsersVC.swift in Sources */,
+				E0ACE47A25FF72D500E5DCE0 /* myImageTVCell.swift in Sources */,
+				E06ECDC125EBD60800A3D134 /* Refrences.swift in Sources */,
+				E0974EDF25EBB17000215A36 /* SceneDelegate.swift in Sources */,
+				E0F595752603530000DD7DC7 /* HelperFunctions.swift in Sources */,
+				E0ACE47C25FF733200E5DCE0 /* myFriendsImageTVCell.swift in Sources */,
+				E0F595742603530000DD7DC7 /* Constants.swift in Sources */,
+				E0F595712603529900DD7DC7 /* Image+Extentions.swift in Sources */,
+				E089EFB425F51BA300B5B1F5 /* FMessageType.swift in Sources */,
+				E08490AC25F6287300B5B2FF /* FUser.swift in Sources */,
+				E0F5956D2603499800DD7DC7 /* Security.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0974EEB25EBB17100215A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0974EEC25EBB17100215A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0974EEE25EBB17100215A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F189F4DCE70EA78BF82B5C /* Pods-Kalmnychat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MN92Y7FJY;
+				INFOPLIST_FILE = Kalmnychat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherif.Kalmnychat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0974EEF25EBB17100215A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7983A1911FC73DAEEE8D78C5 /* Pods-Kalmnychat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MN92Y7FJY;
+				INFOPLIST_FILE = Kalmnychat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherif.Kalmnychat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0974ED425EBB17000215A36 /* Build configuration list for PBXProject "Kalmnychat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0974EEB25EBB17100215A36 /* Debug */,
+				E0974EEC25EBB17100215A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0974EED25EBB17100215A36 /* Build configuration list for PBXNativeTarget "Kalmnychat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0974EEE25EBB17100215A36 /* Debug */,
+				E0974EEF25EBB17100215A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0974ED125EBB17000215A36 /* Project object */;
+}
