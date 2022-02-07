@@ -1,6 +1,6 @@
 # Kalmny Chat App 
 on  this project i used :
-- firebase services
+- firebase services ()
 - MVC design pattern 
 - StoryBoard 
 - tableview 
